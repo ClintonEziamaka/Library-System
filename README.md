@@ -9,4 +9,4 @@ This is a Salesforce library system to track books and AV equipment that employe
 
 Home Page:
 
-![Homepage](https://github.com/ClintonEziamaka/Library-System/master/Screen Shot 2021-08-20 at 6.53.38 AM.png)
+![Homepage](https://github.com/ClintonEziamaka/Library-System/Screen Shot 2021-08-20 at 6.53.38 AM.png)
