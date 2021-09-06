@@ -1,0 +1,19 @@
+<template>
+     <lightning-card title="Check Out Any Available Item">
+    <lightning-record-edit-form title="Check Out Any Available Item" object-api-name={BorrowedObject}>
+    <lightning-messages></lightning-messages>
+    <div class="slds-m-around_medium">
+            <lightning-input label="Borrow Id" disabled value={BorrowedId}></lightning-input>
+            <lightning-input-field field-name={employeeField}></lightning-input-field>
+            <lightning-input-field field-name={itemsField}></lightning-input-field>
+            <lightning-input-field field-name={IssDateField}></lightning-input-field>
+            <lightning-input-field field-name={returnDateField}></lightning-input-field>
+            <lightning-input-field field-name={emailField}></lightning-input-field>
+            <lightning-button onsubmit={handleBorrowedCreated} type="submit" variant="brand" label="Check Out"></lightning-button>
+            <br></br>
+            <lightning-button onclick={handleReset} variant="brand" label="Clear"></lightning-button>
+         </div>
+    </lightning-record-edit-form>
+      </lightning-card>
+
+</template>

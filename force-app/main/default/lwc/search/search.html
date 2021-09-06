@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Search For All Library Items">
+    <div class="slds-m-around_medium">
+    <lightning-input type="search" onchange={handleChange} class="slds-m-bottom_small" label="Search" value={searchWord}></lightning-input>
+    
+        <template for:each={items} for:item="me" for:index="index">
+            <option key={me.Item__c}></option>
+        </template>
+
+
+    </div>
+    </lightning-card>
+
+
+</template>

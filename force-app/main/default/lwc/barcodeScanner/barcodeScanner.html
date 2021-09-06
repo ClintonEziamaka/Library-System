@@ -1,0 +1,22 @@
+<template>
+<lightning-card>
+<div class="slds-align_absolute-center slds-text-align_center 
+                slds-text-color_weak">
+       <p> Click to open a barcode scanner. Continue scanning items until done.
+            Click [Cancel] when there are no more items to scan.</p>
+
+<hr></hr>
+    </div>
+
+    <div class="slds-text-align_center">
+        <lightning-button
+            variant="brand"
+            class="slds-var-m-left_x-small"
+            icon-name="utility:cases"
+            label="Scan Items Barcode Here"
+            title="Start scanning barcodes, until there are no more barcodes to scan"
+            onclick={beginScanning}
+        ></lightning-button>
+    </div>
+</lightning-card>
+</template>
